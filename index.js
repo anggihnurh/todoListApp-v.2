@@ -44,9 +44,6 @@ const showTodo = () => {
     </li>`;
   }
 };
-console.log(todos.length);
-
-document.getElementById("total").innerHTML = todos.length;
 
 const addTodo = () => {
   let data = inputTodoDOM.value;
